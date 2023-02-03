@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html class="js" lang="EN">
+  <head>
+    <meta charset="utf-8" />
+    <title>Metrolics LAB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="Some Demo website" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="img/metro.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="theme-color" content="#fafafa" />
+    <script
+      src="https://kit.fontawesome.com/47320e3546.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="page page-home">
+    <header class="page_header">
+      <div class="row m-1-2">
+        <nav class="mobile-nav m-hide l-hide">
+          <i class="fas fa-bars fa-5x"></i>
+        </nav>
+        <div class="column">
+          <div class="metrolics_logo">
+            <h1>Metrolics</h1>
+            <img class="header__logo" src="img/metro.png" />
+          </div>
+        </div>
+        <div class="column header__nav" id="hamContent">
+          <nav class="column header__nav">
+            <a class="header__nav_item active">Home</a>
+            <a class="header__nav_item">Pages</a>
+            <a class="header__nav_item">Blog</a>
+            <a class="header__nav_item">Portfolio</a>
+            <a class="header__nav_item">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="slider">
+      <img src="./img/banner.png" class="slider__img" />
+      <ul class="slider__links">
+        <li class="slider__links_item">Metro Style</li>
+        <li class="slider__links_item">Retina Ready</li>
+        <li class="slider__links_item">Responsive Design</li>
+      </ul>
+    </div>
+
+    <div class="page_intro">
+      <div class="row">
+        <h1 class="section__header">
+          Hey guys! This is the
+          <span style="color: #50bbe3"> Metrolics </span> theme. <br />
+          It sports a responsive layout with a mobile layout.
+        </h1>
+      </div>
+    </div>
+
+    <section class="about">
+      <div class="row l-col-4 m-col-2">
+        <div class="column span-full">
+          <h2 class="section__header">Things that we do!</h2>
+          <p class="subsection__header">Ask us what we can do for you!</p>
+        </div>
+        <div class="column">
+          <div class="about_section">
+            <img class="section_image" src="img/websolutionsicon.png" />
+            <div class="section_text">
+              <h3 class="section_heading">Web Solutions</h3>
+              <p class="section_subheading">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean,
+                nec felis nisi. Praesent sed orci non orci efficitur pretium
+                sit, amet nec tellus. Curabitur cursus ligula et euismod
+                dapibus. Pellentesque sit amet quam eget dolor bibendum
+                facilisis,
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="about_section">
+            <img class="section_image" src="img/photographyicon.png" />
+            <div class="section_text">
+              <h3 class="section_heading">Photography</h3>
+              <p class="section_subheading">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean,
+                nec felis nisi. Praesent sed orci non orci efficitur pretium
+                sit, amet nec tellus. Curabitur cursus ligula et euismod
+                dapibus. Pellentesque sit amet quam eget dolor bibendum
+                facilisis,
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="about_section">
+            <img class="section_image" src="img/webdevelopmenticon.png" />
+            <div class="section_text">
+              <h3 class="section_heading">Web Development</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean,
+                nec felis nisi. Praesent sed orci non orci efficitur pretium
+                sit, amet nec tellus. Curabitur cursus ligula et euismod
+                dapibus. Pellentesque sit amet quam eget dolor bibendum
+                facilisis,
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="about_section">
+            <img class="section_image" src="img/webdesignicon.png" />
+            <div class="section_text">
+              <h3 class="section_heading">Web Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean,
+                nec felis nisi. Praesent sed orci non orci efficitur pretium
+                sit, amet nec tellus. Curabitur cursus ligula et euismod
+                dapibus. Pellentesque sit amet quam eget dolor bibendum
+                facilisis,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects--new">
+      <div class="row m-col-2 l-col-3">
+        <div class="column span-full">
+          <h2 class="section__header">Whats Up Lately?</h2>
+          <h3 class="subsection__header">Read up on our latest work</h3>
+        </div>
+        <div class="column special-project">
+          <figure class="project">
+            <img src="img/project.jpg" alt="turned tables project" />
+            <figcaption class="project_caption">
+              <h3 class="section_heading">Sample Image Post</h3>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="project">
+            <img src="img/project.jpg" alt="turned tables project" />
+            <figcaption class="project_caption">
+              <h3 class="section_heading">Sample Image Post</h3>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="project">
+            <img src="img/project.jpg" alt="turned tables project" />
+            <figcaption class="project_caption">
+              <h3 class="section_heading">Sample Image Post</h3>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="row m-col-2 l-col-3">
+        <div class="column span-full">
+          <h2 class="section__header">Our Latest Projects</h2>
+          <h3 class="subsection__header">Client happy? We are happy.</h3>
+        </div>
+        <div class="column">
+          <figure class="project">
+            <img src="img/project.jpg" alt="turned tables project" />
+            <figcaption class="project_caption">
+              <h3 class="section_heading">Sample Image Post</h3>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="project">
+            <img src="img/project.jpg" alt="turned tables project" />
+            <figcaption class="project_caption">
+              <h3 class="section_heading">Sample Image Post</h3>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="project">
+            <img src="img/project.jpg" alt="turned tables project" />
+            <figcaption class="project_caption">
+              <h3 class="section_heading">Sample Image Post</h3>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="project">
+            <img src="img/project.jpg" alt="turned tables project" />
+            <figcaption class="project_caption">
+              <h3 class="section_heading">Sample Image Post</h3>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="project">
+            <img src="img/project.jpg" alt="turned tables project" />
+            <figcaption class="project_caption">
+              <h3 class="section_heading">Sample Image Post</h3>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <figure class="project">
+            <img src="img/project.jpg" alt="turned tables project" />
+            <figcaption class="project_caption">
+              <h3 class="section_heading">Sample Image Post</h3>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="thingsofabove">
+      <div class="row l-col-2 s-hide">
+        <div class="column span-full">
+          <h2 class="section__header">Thingsofabove</h2>
+          <h3 class="subsection__header">
+            Misc stuff we could not put anywhere.
+          </h3>
+        </div>
+        <div class="column">
+          <div class="thingsofabovemenu">
+            <div class="thingsofabovemenu_outer">
+              <div
+                class="thingsofabovemenu_item_title a_title"
+                id="thingsofabove__Title1"
+                onClick="openInner(1)"
+              >
+                Sample Accordian Menu
+                <span class="thingsofabovemenu_button" id="thingsofabove__1"
+                  >+</span
+                >
+              </div>
+              <div class="thingsofabovemenu_span">
+                <div
+                  class="thingsofabovemenu_inner t_title"
+                  id="thingsofabove__Content1"
+                >
+                  <div class="thingsofabovemenu_inner_content">
+                    <img src="img/lightbulb.png" alt="lightbulb" />
+                    <div class="thingsofabovemenu_text">
+                      <div class="thingsofabovemenu_item">Web Solutions</div>
+                      <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean, nec felis nisi. Praesent sed orci non orci
+                        efficitur pretium sit, amet nec tellus. Curabitur cursus
+                        ligula et euismod dapibus. Pellentesque sit amet quam
+                        eget dolor bibendum facilisis,
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="thingsofabovemenu_item_title a_title"
+                id="thingsofabove__Title2"
+                onClick="openInner(2)"
+              >
+                Sample Accordian Menu 2
+                <span class="thingsofabovemenu_button" id="thingsofabove__2"
+                  >+</span
+                >
+              </div>
+              <div class="thingsofabovemenu_span">
+                <div
+                  class="thingsofabovemenu_inner t_title"
+                  id="thingsofabove__Content2"
+                >
+                  <div class="thingsofabovemenu_inner_content">
+                    <img src="img/lightbulb.png" alt="lightbulb" />
+                    <div class="thingsofabovemenu_text">
+                      <div class="thingsofabovemenu_item">Web Solutions</div>
+                      <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean, nec felis nisi. Praesent sed orci non orci
+                        efficitur pretium sit, amet nec tellus. Curabitur cursus
+                        ligula et euismod dapibus. Pellentesque sit amet quam
+                        eget dolor bibendum facilisis,
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="thingsofabovemenu_item_title a_title"
+                id="thingsofabove__Title3"
+                onClick="openInner(3)"
+              >
+                Sample Accordian Menu 3
+                <span class="thingsofabovemenu_button" id="thingsofabove__3"
+                  >+</span
+                >
+              </div>
+              <div class="thingsofabovemenu_span">
+                <div
+                  class="thingsofabovemenu_inner t_title"
+                  id="thingsofabove__Content3"
+                >
+                  <div class="thingsofabovemenu_inner_content">
+                    <img src="img/lightbulb.png" alt="lightbulb" />
+                    <div class="thingsofabovemenu_text">
+                      <div class="thingsofabovemenu_item">Web Solutions</div>
+                      <div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aenean, nec felis nisi. Praesent sed orci non orci
+                        efficitur pretium sit, amet nec tellus. Curabitur cursus
+                        ligula et euismod dapibus. Pellentesque sit amet quam
+                        eget dolor bibendum facilisis,
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="page_menu">
+            <div class="tab_outer">
+              <ul>
+                <li id="tab1" onClick="tabOut(1)">Tab1</li>
+                <li id="tab2" onClick="tabOut(2)">Tab2</li>
+                <li id="tab3" onClick="tabOut(3)">Tab3</li>
+              </ul>
+            </div>
+            <ul class="tab_inner">
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean,
+                nec felis nisi. Praesent sed orci non orci efficitur pretium
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean,
+                nec felis nisi. Praesent sed orci non orci efficitur pretium
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean,
+                nec felis nisi. Praesent sed orci non orci efficitur pretium
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean,
+                nec felis nisi. Praesent sed orci non orci efficitur pretium
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sponsors">
+      <div class="row m-col-5 s-hide">
+        <div class="column">
+          <img src="img/NetBeans.png" />
+        </div>
+        <div class="column">
+          <img src="img/krita.jpg" />
+        </div>
+        <div class="column">
+          <img src="img/Scirra.jpg" />
+        </div>
+        <div class="column">
+          <img src="img/blender.jpg" />
+        </div>
+        <div class="column">
+          <img src="img/inkscape.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <footer class="page_footer">
+      <div class="row m-col-2 l-col-4 row-no-margin">
+        <div class="page_footer_intro column span-full">
+          <img src="img/peewee.png" />
+          <div class="page_footer_intro_text">
+            <h3 class="page_footer_heading">Pewee Herman</h3>
+            <p style="text-align: left">
+              <i
+                >Peewee has over 10 years experience in the industry. He is our
+                Creative Director, digital designer, web designer and front-end
+                developer. He is also pretty good with a sketch-book. Before
+                starting the company Peewee worked as a designer and studio
+                manager for a design house who boasted a number of big name
+                clients.</i
+              >
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <h4 class="about__line s-hide">About Us</h4>
+          <p class="footer__about" style="text-align: left">
+            Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala
+            jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do
+            chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt
+            chasy. Pepete uuuhhh hahaha gelatooo belloo!
+          </p>
+          <div class="footer__socials">
+            <div class="column">
+              <img src="img/faceboo.png" />
+            </div>
+            <div class="column">
+              <img src="img/google.png" />
+            </div>
+            <div class="column">
+              <img src="img/twitte.png" />
+            </div>
+            <div class="column">
+              <img src="img/instagram.png" />
+            </div>
+            <div class="column">
+              <img src="img/wifi.png" />
+            </div>
+          </div>
+        </div>
+        <div class="column s-hide">
+          <h4 class="flickr__line">Flickr Photos</h4>
+          <div class="sub-grid m-col-3">
+            <div class="column">
+              <img src="img/flickr1.png" />
+            </div>
+            <div class="column">
+              <img src="img/flickr2.png" />
+            </div>
+            <div class="column">
+              <img src="img/flickr3.png" />
+            </div>
+            <div class="column">
+              <img src="img/flickr4.png" />
+            </div>
+            <div class="column">
+              <img src="img/flickr5.png" />
+            </div>
+            <div class="column">
+              <img src="img/flickr6.png" />
+            </div>
+          </div>
+        </div>
+        <div class="column footer__tweets">
+          <h4 class="recent__line">Recent Tweets</h4>
+          <ul>
+            <li>
+              <span>
+                @minions- ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka
+                masala jiji wiiiii hahaha po kass tulaliloo
+              </span>
+            </li>
+            <li>
+              @minions - ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka
+              masala jiji wiiiii hahaha po kass tulaliloo
+            </li>
+          </ul>
+        </div>
+
+        <div class="column m-col-2 s-hide">
+          <h4 class="news__line">News Letter</h4>
+          <p style="text-align: left">
+            minnions text Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Voluptas, minima repellendus cum ut provident, porro
+            consequatur laudantium quaerat pariatur
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
